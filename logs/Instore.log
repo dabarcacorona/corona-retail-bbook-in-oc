@@ -1,0 +1,256 @@
+2022-10-05 13:20:13.978  INFO 15508 --- [main] com.jadm.JadmBbookInOcApplication        : Starting JadmBbookInOcApplication using Java 1.8.0_202 on MCSAPGS-0004 with PID 15508 (C:\Users\dabarca\Documents\Dev\jadm_bbook_in-oc\target\classes started by dabarca in C:\Users\dabarca\Documents\Dev\jadm_bbook_in-oc)
+2022-10-05 13:20:13.997  INFO 15508 --- [main] com.jadm.JadmBbookInOcApplication        : No active profile set, falling back to default profiles: default
+2022-10-05 13:20:14.873  INFO 15508 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-05 13:20:14.944  INFO 15508 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interfaces.
+2022-10-05 13:20:15.649  INFO 15508 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-10-05 13:20:15.659  INFO 15508 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-05 13:20:15.659  INFO 15508 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.48]
+2022-10-05 13:20:15.797  INFO 15508 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-05 13:20:15.797  INFO 15508 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1722 ms
+2022-10-05 13:20:16.064  INFO 15508 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-05 13:20:16.136  INFO 15508 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-10-05 13:20:16.350  INFO 15508 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-05 13:20:16.389 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BooleanType@566922
+2022-10-05 13:20:16.389 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BooleanType@566922
+2022-10-05 13:20:16.389 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@566922
+2022-10-05 13:20:16.390 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@1c17e38
+2022-10-05 13:20:16.391 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration true_false -> org.hibernate.type.TrueFalseType@87ba34
+2022-10-05 13:20:16.392 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration yes_no -> org.hibernate.type.YesNoType@135ce0a
+2022-10-05 13:20:16.393 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.ByteType@b2fa10
+2022-10-05 13:20:16.393 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.ByteType@b2fa10
+2022-10-05 13:20:16.394 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@b2fa10
+2022-10-05 13:20:16.395 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration character -> org.hibernate.type.CharacterType@13d2cd1
+2022-10-05 13:20:16.396 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration char -> org.hibernate.type.CharacterType@13d2cd1
+2022-10-05 13:20:16.396 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@13d2cd1
+2022-10-05 13:20:16.397 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.ShortType@c10083
+2022-10-05 13:20:16.398 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.ShortType@c10083
+2022-10-05 13:20:16.398 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Short -> org.hibernate.type.ShortType@c10083
+2022-10-05 13:20:16.399 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration integer -> org.hibernate.type.IntegerType@ed890d
+2022-10-05 13:20:16.402 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration int -> org.hibernate.type.IntegerType@ed890d
+2022-10-05 13:20:16.402 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@ed890d
+2022-10-05 13:20:16.404 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.LongType@1627d27
+2022-10-05 13:20:16.404 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.LongType@1627d27
+2022-10-05 13:20:16.404 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Long -> org.hibernate.type.LongType@1627d27
+2022-10-05 13:20:16.405 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.FloatType@c730cd
+2022-10-05 13:20:16.405 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.FloatType@c730cd
+2022-10-05 13:20:16.405 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Float -> org.hibernate.type.FloatType@c730cd
+2022-10-05 13:20:16.406 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.DoubleType@1054f70
+2022-10-05 13:20:16.407 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.DoubleType@1054f70
+2022-10-05 13:20:16.407 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@1054f70
+2022-10-05 13:20:16.408 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@b802f4
+2022-10-05 13:20:16.408 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@b802f4
+2022-10-05 13:20:16.409 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_integer -> org.hibernate.type.BigIntegerType@ede57d
+2022-10-05 13:20:16.409 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@ede57d
+2022-10-05 13:20:16.410 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration string -> org.hibernate.type.StringType@1d54b3
+2022-10-05 13:20:16.410 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.String -> org.hibernate.type.StringType@1d54b3
+2022-10-05 13:20:16.411 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration nstring -> org.hibernate.type.StringNVarcharType@cd341d
+2022-10-05 13:20:16.419 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@1592af7
+2022-10-05 13:20:16.420 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration url -> org.hibernate.type.UrlType@17bd805
+2022-10-05 13:20:16.420 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.net.URL -> org.hibernate.type.UrlType@17bd805
+2022-10-05 13:20:16.421 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration Duration -> org.hibernate.type.DurationType@65a360
+2022-10-05 13:20:16.422 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Duration -> org.hibernate.type.DurationType@65a360
+2022-10-05 13:20:16.423 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration Instant -> org.hibernate.type.InstantType@10689af
+2022-10-05 13:20:16.423 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Instant -> org.hibernate.type.InstantType@10689af
+2022-10-05 13:20:16.431 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@15fa8c5
+2022-10-05 13:20:16.431 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@15fa8c5
+2022-10-05 13:20:16.432 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDate -> org.hibernate.type.LocalDateType@3fbcb1
+2022-10-05 13:20:16.433 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@3fbcb1
+2022-10-05 13:20:16.434 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@110fcb0
+2022-10-05 13:20:16.434 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@110fcb0
+2022-10-05 13:20:16.436 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@15795f3
+2022-10-05 13:20:16.436 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@15795f3
+2022-10-05 13:20:16.437 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@aa331
+2022-10-05 13:20:16.438 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@aa331
+2022-10-05 13:20:16.440 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@1960b1e
+2022-10-05 13:20:16.440 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@1960b1e
+2022-10-05 13:20:16.443 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration date -> org.hibernate.type.DateType@19a9cb2
+2022-10-05 13:20:16.443 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Date -> org.hibernate.type.DateType@19a9cb2
+2022-10-05 13:20:16.444 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration time -> org.hibernate.type.TimeType@ead351
+2022-10-05 13:20:16.444 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Time -> org.hibernate.type.TimeType@ead351
+2022-10-05 13:20:16.446 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration timestamp -> org.hibernate.type.TimestampType@19a10df
+2022-10-05 13:20:16.446 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@19a10df
+2022-10-05 13:20:16.446 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Date -> org.hibernate.type.TimestampType@19a10df
+2022-10-05 13:20:16.447 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@e88e21
+2022-10-05 13:20:16.449 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar -> org.hibernate.type.CalendarType@d47df0
+2022-10-05 13:20:16.449 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@d47df0
+2022-10-05 13:20:16.450 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@d47df0
+2022-10-05 13:20:16.451 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@34b61a
+2022-10-05 13:20:16.452 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@b4aa5e
+2022-10-05 13:20:16.453 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration locale -> org.hibernate.type.LocaleType@1cec305
+2022-10-05 13:20:16.453 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@1cec305
+2022-10-05 13:20:16.454 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration currency -> org.hibernate.type.CurrencyType@545821
+2022-10-05 13:20:16.455 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@545821
+2022-10-05 13:20:16.456 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration timezone -> org.hibernate.type.TimeZoneType@178c683
+2022-10-05 13:20:16.456 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@178c683
+2022-10-05 13:20:16.457 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration class -> org.hibernate.type.ClassType@1f9cb52
+2022-10-05 13:20:16.457 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Class -> org.hibernate.type.ClassType@1f9cb52
+2022-10-05 13:20:16.458 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@25789b
+2022-10-05 13:20:16.458 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@25789b
+2022-10-05 13:20:16.459 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@da2062
+2022-10-05 13:20:16.461 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration binary -> org.hibernate.type.BinaryType@d40e31
+2022-10-05 13:20:16.461 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte[] -> org.hibernate.type.BinaryType@d40e31
+2022-10-05 13:20:16.461 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration [B -> org.hibernate.type.BinaryType@d40e31
+2022-10-05 13:20:16.466 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@cb2d73
+2022-10-05 13:20:16.467 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@cb2d73
+2022-10-05 13:20:16.467 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@cb2d73
+2022-10-05 13:20:16.468 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration row_version -> org.hibernate.type.RowVersionType@1c78080
+2022-10-05 13:20:16.469 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration image -> org.hibernate.type.ImageType@82b9f5
+2022-10-05 13:20:16.470 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration characters -> org.hibernate.type.CharArrayType@1f77791
+2022-10-05 13:20:16.470 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration char[] -> org.hibernate.type.CharArrayType@1f77791
+2022-10-05 13:20:16.470 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration [C -> org.hibernate.type.CharArrayType@1f77791
+2022-10-05 13:20:16.471 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@297bdf
+2022-10-05 13:20:16.471 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@297bdf
+2022-10-05 13:20:16.471 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@297bdf
+2022-10-05 13:20:16.472 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration text -> org.hibernate.type.TextType@12b305d
+2022-10-05 13:20:16.472 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration ntext -> org.hibernate.type.NTextType@1b15f70
+2022-10-05 13:20:16.474 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration blob -> org.hibernate.type.BlobType@d25ba9
+2022-10-05 13:20:16.474 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@d25ba9
+2022-10-05 13:20:16.475 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@1e3236d
+2022-10-05 13:20:16.482 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration clob -> org.hibernate.type.ClobType@1b40fd5
+2022-10-05 13:20:16.482 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@1b40fd5
+2022-10-05 13:20:16.484 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration nclob -> org.hibernate.type.NClobType@18acf70
+2022-10-05 13:20:16.484 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@18acf70
+2022-10-05 13:20:16.485 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@44930a
+2022-10-05 13:20:16.485 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@21b13b
+2022-10-05 13:20:16.487 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration serializable -> org.hibernate.type.SerializableType@1da0434
+2022-10-05 13:20:16.489 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration object -> org.hibernate.type.ObjectType@142a45c
+2022-10-05 13:20:16.490 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@142a45c
+2022-10-05 13:20:16.490 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@d6b1bd
+2022-10-05 13:20:16.490 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@3cdaa4
+2022-10-05 13:20:16.490 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@141e1bf
+2022-10-05 13:20:16.490 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@19c93ca
+2022-10-05 13:20:16.491 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@6e9d1d
+2022-10-05 13:20:16.491 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@a5974e
+2022-10-05 13:20:16.491 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@5ddfbc
+2022-10-05 13:20:16.496 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@1da157e
+2022-10-05 13:20:16.545  INFO 15508 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-05 13:20:17.390  INFO 15508 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-05 13:20:17.434  INFO 15508 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-10-05 13:20:17.917 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte[] -> org.hibernate.type.MaterializedBlobType@1e3236d
+2022-10-05 13:20:17.918 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@d40e31
+2022-10-05 13:20:17.918 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration [B -> org.hibernate.type.MaterializedBlobType@1e3236d
+2022-10-05 13:20:17.918 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@d40e31
+2022-10-05 13:20:17.918 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration Byte[] -> org.hibernate.type.WrappedMaterializedBlobType@69931a
+2022-10-05 13:20:17.918 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@cb2d73
+2022-10-05 13:20:17.918 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrappedMaterializedBlobType@69931a
+2022-10-05 13:20:17.919 DEBUG 15508 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@cb2d73
+2022-10-05 13:20:17.920 DEBUG 15508 --- [main] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@1470477] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@182ffef]
+2022-10-05 13:20:18.158 DEBUG 15508 --- [main] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@1470477] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@b2d51a]
+2022-10-05 13:20:18.566  INFO 15508 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-05 13:20:18.575 TRACE 15508 --- [main] o.h.type.spi.TypeConfiguration$Scope     : Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@b2d51a] for TypeConfiguration
+2022-10-05 13:20:18.579  INFO 15508 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-05 13:20:19.081  WARN 15508 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-05 13:20:19.685  INFO 15508 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3f3c29, org.springframework.security.web.context.SecurityContextPersistenceFilter@18cebdb, org.springframework.security.web.header.HeaderWriterFilter@55e899, org.springframework.security.web.csrf.CsrfFilter@5b7cc6, org.springframework.security.web.authentication.logout.LogoutFilter@14331a8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1c4483f, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@27335c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1d8b081, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1cdf948, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@64aeec, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@e41f13, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1e38b73, org.springframework.security.web.session.SessionManagementFilter@10be5ec, org.springframework.security.web.access.ExceptionTranslationFilter@983265, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1f9aa0]
+2022-10-05 13:20:19.768  INFO 15508 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-05 13:20:19.780  INFO 15508 --- [main] com.jadm.JadmBbookInOcApplication        : Started JadmBbookInOcApplication in 6.358 seconds (JVM running for 7.569)
+2022-10-05 13:21:00.017  INFO 15508 --- [scheduling-1] com.jadm.scheduler.ScheduledTasks        : 13:21:00 : Generacion periodica para el envio de tiendas  - {}
+2022-10-05 13:21:00.100 DEBUG 15508 --- [scheduling-1] org.hibernate.SQL                        : select distinct pmg_po_number from app_sam.sdi_sdipmghde where tran_type = 'A' and   pmg_stat_code = 4 and   download_date_1 is null and   pmg_ext_po_num is not null
+2022-10-05 13:22:00.007  INFO 15508 --- [scheduling-1] com.jadm.scheduler.ScheduledTasks        : 13:22:00 : Generacion periodica para el envio de tiendas  - {}
+2022-10-05 13:22:00.017 DEBUG 15508 --- [scheduling-1] org.hibernate.SQL                        : select distinct pmg_po_number from app_sam.sdi_sdipmghde where tran_type = 'A' and   pmg_stat_code = 4 and   download_date_1 is null and   pmg_ext_po_num is not null
+2022-10-05 13:23:00.008  INFO 15508 --- [scheduling-1] com.jadm.scheduler.ScheduledTasks        : 13:23:00 : Generacion periodica para el envio de tiendas  - {}
+2022-10-05 13:23:00.020 DEBUG 15508 --- [scheduling-1] org.hibernate.SQL                        : select distinct pmg_po_number from app_sam.sdi_sdipmghde where tran_type = 'A' and   pmg_stat_code = 4 and   download_date_1 is null and   pmg_ext_po_num is not null
+2022-10-05 13:24:00.012  INFO 15508 --- [scheduling-1] com.jadm.scheduler.ScheduledTasks        : 13:24:00 : Generacion periodica para el envio de tiendas  - {}
+2022-10-05 13:24:00.020 DEBUG 15508 --- [scheduling-1] org.hibernate.SQL                        : select distinct pmg_po_number from app_sam.sdi_sdipmghde where tran_type = 'A' and   pmg_stat_code = 4 and   download_date_1 is null and   pmg_ext_po_num is not null
+2022-10-05 13:25:00.009  INFO 15508 --- [scheduling-1] com.jadm.scheduler.ScheduledTasks        : 13:25:00 : Generacion periodica para el envio de tiendas  - {}
+2022-10-05 13:25:00.022 DEBUG 15508 --- [scheduling-1] org.hibernate.SQL                        : select distinct pmg_po_number from app_sam.sdi_sdipmghde where tran_type = 'A' and   pmg_stat_code = 4 and   download_date_1 is null and   pmg_ext_po_num is not null
+2022-10-05 13:26:00.001  INFO 15508 --- [scheduling-1] com.jadm.scheduler.ScheduledTasks        : 13:26:00 : Generacion periodica para el envio de tiendas  - {}
+2022-10-05 13:26:00.012 DEBUG 15508 --- [scheduling-1] org.hibernate.SQL                        : select distinct pmg_po_number from app_sam.sdi_sdipmghde where tran_type = 'A' and   pmg_stat_code = 4 and   download_date_1 is null and   pmg_ext_po_num is not null
+2022-10-05 13:27:00.009  INFO 15508 --- [scheduling-1] com.jadm.scheduler.ScheduledTasks        : 13:27:00 : Generacion periodica para el envio de tiendas  - {}
+2022-10-05 13:27:00.026 DEBUG 15508 --- [scheduling-1] org.hibernate.SQL                        : select distinct pmg_po_number from app_sam.sdi_sdipmghde where tran_type = 'A' and   pmg_stat_code = 4 and   download_date_1 is null and   pmg_ext_po_num is not null
+2022-10-05 13:28:00.011  INFO 15508 --- [scheduling-1] com.jadm.scheduler.ScheduledTasks        : 13:28:00 : Generacion periodica para el envio de tiendas  - {}
+2022-10-05 13:28:00.022 DEBUG 15508 --- [scheduling-1] org.hibernate.SQL                        : select distinct pmg_po_number from app_sam.sdi_sdipmghde where tran_type = 'A' and   pmg_stat_code = 4 and   download_date_1 is null and   pmg_ext_po_num is not null
+2022-10-05 13:29:00.015  INFO 15508 --- [scheduling-1] com.jadm.scheduler.ScheduledTasks        : 13:29:00 : Generacion periodica para el envio de tiendas  - {}
+2022-10-05 13:29:00.026 DEBUG 15508 --- [scheduling-1] org.hibernate.SQL                        : select distinct pmg_po_number from app_sam.sdi_sdipmghde where tran_type = 'A' and   pmg_stat_code = 4 and   download_date_1 is null and   pmg_ext_po_num is not null
+2022-10-05 13:30:00.006  INFO 15508 --- [scheduling-1] com.jadm.scheduler.ScheduledTasks        : 13:30:00 : Generacion periodica para el envio de tiendas  - {}
+2022-10-05 13:30:00.017 DEBUG 15508 --- [scheduling-1] org.hibernate.SQL                        : select distinct pmg_po_number from app_sam.sdi_sdipmghde where tran_type = 'A' and   pmg_stat_code = 4 and   download_date_1 is null and   pmg_ext_po_num is not null
+2022-10-05 13:31:00.006  INFO 15508 --- [scheduling-1] com.jadm.scheduler.ScheduledTasks        : 13:31:00 : Generacion periodica para el envio de tiendas  - {}
+2022-10-05 13:31:00.017 DEBUG 15508 --- [scheduling-1] org.hibernate.SQL                        : select distinct pmg_po_number from app_sam.sdi_sdipmghde where tran_type = 'A' and   pmg_stat_code = 4 and   download_date_1 is null and   pmg_ext_po_num is not null
+2022-10-05 13:32:00.007  INFO 15508 --- [scheduling-1] com.jadm.scheduler.ScheduledTasks        : 13:32:00 : Generacion periodica para el envio de tiendas  - {}
+2022-10-05 13:32:00.023 DEBUG 15508 --- [scheduling-1] org.hibernate.SQL                        : select distinct pmg_po_number from app_sam.sdi_sdipmghde where tran_type = 'A' and   pmg_stat_code = 4 and   download_date_1 is null and   pmg_ext_po_num is not null
+2022-10-05 13:33:00.009  INFO 15508 --- [scheduling-1] com.jadm.scheduler.ScheduledTasks        : 13:33:00 : Generacion periodica para el envio de tiendas  - {}
+2022-10-05 13:33:00.023 DEBUG 15508 --- [scheduling-1] org.hibernate.SQL                        : select distinct pmg_po_number from app_sam.sdi_sdipmghde where tran_type = 'A' and   pmg_stat_code = 4 and   download_date_1 is null and   pmg_ext_po_num is not null
+2022-10-05 13:34:00.008  INFO 15508 --- [scheduling-1] com.jadm.scheduler.ScheduledTasks        : 13:34:00 : Generacion periodica para el envio de tiendas  - {}
+2022-10-05 13:34:00.020 DEBUG 15508 --- [scheduling-1] org.hibernate.SQL                        : select distinct pmg_po_number from app_sam.sdi_sdipmghde where tran_type = 'A' and   pmg_stat_code = 4 and   download_date_1 is null and   pmg_ext_po_num is not null
+2022-10-05 13:35:00.011  INFO 15508 --- [scheduling-1] com.jadm.scheduler.ScheduledTasks        : 13:35:00 : Generacion periodica para el envio de tiendas  - {}
+2022-10-05 13:35:00.024 DEBUG 15508 --- [scheduling-1] org.hibernate.SQL                        : select distinct pmg_po_number from app_sam.sdi_sdipmghde where tran_type = 'A' and   pmg_stat_code = 4 and   download_date_1 is null and   pmg_ext_po_num is not null
+2022-10-05 13:36:00.007  INFO 15508 --- [scheduling-1] com.jadm.scheduler.ScheduledTasks        : 13:36:00 : Generacion periodica para el envio de tiendas  - {}
+2022-10-05 13:36:00.017 DEBUG 15508 --- [scheduling-1] org.hibernate.SQL                        : select distinct pmg_po_number from app_sam.sdi_sdipmghde where tran_type = 'A' and   pmg_stat_code = 4 and   download_date_1 is null and   pmg_ext_po_num is not null
+2022-10-05 13:37:00.011  INFO 15508 --- [scheduling-1] com.jadm.scheduler.ScheduledTasks        : 13:37:00 : Generacion periodica para el envio de tiendas  - {}
+2022-10-05 13:37:00.020 DEBUG 15508 --- [scheduling-1] org.hibernate.SQL                        : select distinct pmg_po_number from app_sam.sdi_sdipmghde where tran_type = 'A' and   pmg_stat_code = 4 and   download_date_1 is null and   pmg_ext_po_num is not null
+2022-10-05 13:38:00.009  INFO 15508 --- [scheduling-1] com.jadm.scheduler.ScheduledTasks        : 13:38:00 : Generacion periodica para el envio de tiendas  - {}
+2022-10-05 13:38:00.018 DEBUG 15508 --- [scheduling-1] org.hibernate.SQL                        : select distinct pmg_po_number from app_sam.sdi_sdipmghde where tran_type = 'A' and   pmg_stat_code = 4 and   download_date_1 is null and   pmg_ext_po_num is not null
+2022-10-05 13:39:00.014  INFO 15508 --- [scheduling-1] com.jadm.scheduler.ScheduledTasks        : 13:39:00 : Generacion periodica para el envio de tiendas  - {}
+2022-10-05 13:39:00.026 DEBUG 15508 --- [scheduling-1] org.hibernate.SQL                        : select distinct pmg_po_number from app_sam.sdi_sdipmghde where tran_type = 'A' and   pmg_stat_code = 4 and   download_date_1 is null and   pmg_ext_po_num is not null
+2022-10-05 13:40:00.014  INFO 15508 --- [scheduling-1] com.jadm.scheduler.ScheduledTasks        : 13:40:00 : Generacion periodica para el envio de tiendas  - {}
+2022-10-05 13:40:00.027 DEBUG 15508 --- [scheduling-1] org.hibernate.SQL                        : select distinct pmg_po_number from app_sam.sdi_sdipmghde where tran_type = 'A' and   pmg_stat_code = 4 and   download_date_1 is null and   pmg_ext_po_num is not null
+2022-10-05 13:41:00.009  INFO 15508 --- [scheduling-1] com.jadm.scheduler.ScheduledTasks        : 13:41:00 : Generacion periodica para el envio de tiendas  - {}
+2022-10-05 13:41:00.018 DEBUG 15508 --- [scheduling-1] org.hibernate.SQL                        : select distinct pmg_po_number from app_sam.sdi_sdipmghde where tran_type = 'A' and   pmg_stat_code = 4 and   download_date_1 is null and   pmg_ext_po_num is not null
+2022-10-05 13:42:00.007  INFO 15508 --- [scheduling-1] com.jadm.scheduler.ScheduledTasks        : 13:42:00 : Generacion periodica para el envio de tiendas  - {}
+2022-10-05 13:42:00.021 DEBUG 15508 --- [scheduling-1] org.hibernate.SQL                        : select distinct pmg_po_number from app_sam.sdi_sdipmghde where tran_type = 'A' and   pmg_stat_code = 4 and   download_date_1 is null and   pmg_ext_po_num is not null
+2022-10-05 13:43:00.005  INFO 15508 --- [scheduling-1] com.jadm.scheduler.ScheduledTasks        : 13:43:00 : Generacion periodica para el envio de tiendas  - {}
+2022-10-05 13:43:00.018 DEBUG 15508 --- [scheduling-1] org.hibernate.SQL                        : select distinct pmg_po_number from app_sam.sdi_sdipmghde where tran_type = 'A' and   pmg_stat_code = 4 and   download_date_1 is null and   pmg_ext_po_num is not null
+2022-10-05 13:44:00.004  INFO 15508 --- [scheduling-1] com.jadm.scheduler.ScheduledTasks        : 13:44:00 : Generacion periodica para el envio de tiendas  - {}
+2022-10-05 13:44:00.021 DEBUG 15508 --- [scheduling-1] org.hibernate.SQL                        : select distinct pmg_po_number from app_sam.sdi_sdipmghde where tran_type = 'A' and   pmg_stat_code = 4 and   download_date_1 is null and   pmg_ext_po_num is not null
+2022-10-05 13:45:00.012  INFO 15508 --- [scheduling-1] com.jadm.scheduler.ScheduledTasks        : 13:45:00 : Generacion periodica para el envio de tiendas  - {}
+2022-10-05 13:45:00.023 DEBUG 15508 --- [scheduling-1] org.hibernate.SQL                        : select distinct pmg_po_number from app_sam.sdi_sdipmghde where tran_type = 'A' and   pmg_stat_code = 4 and   download_date_1 is null and   pmg_ext_po_num is not null
+2022-10-05 13:46:00.005  INFO 15508 --- [scheduling-1] com.jadm.scheduler.ScheduledTasks        : 13:46:00 : Generacion periodica para el envio de tiendas  - {}
+2022-10-05 13:46:00.017 DEBUG 15508 --- [scheduling-1] org.hibernate.SQL                        : select distinct pmg_po_number from app_sam.sdi_sdipmghde where tran_type = 'A' and   pmg_stat_code = 4 and   download_date_1 is null and   pmg_ext_po_num is not null
+2022-10-05 13:47:00.011  INFO 15508 --- [scheduling-1] com.jadm.scheduler.ScheduledTasks        : 13:47:00 : Generacion periodica para el envio de tiendas  - {}
+2022-10-05 13:47:00.022 DEBUG 15508 --- [scheduling-1] org.hibernate.SQL                        : select distinct pmg_po_number from app_sam.sdi_sdipmghde where tran_type = 'A' and   pmg_stat_code = 4 and   download_date_1 is null and   pmg_ext_po_num is not null
+2022-10-05 13:48:00.012  INFO 15508 --- [scheduling-1] com.jadm.scheduler.ScheduledTasks        : 13:48:00 : Generacion periodica para el envio de tiendas  - {}
+2022-10-05 13:48:00.026 DEBUG 15508 --- [scheduling-1] org.hibernate.SQL                        : select distinct pmg_po_number from app_sam.sdi_sdipmghde where tran_type = 'A' and   pmg_stat_code = 4 and   download_date_1 is null and   pmg_ext_po_num is not null
+2022-10-05 13:49:00.002  INFO 15508 --- [scheduling-1] com.jadm.scheduler.ScheduledTasks        : 13:49:00 : Generacion periodica para el envio de tiendas  - {}
+2022-10-05 13:49:00.013 DEBUG 15508 --- [scheduling-1] org.hibernate.SQL                        : select distinct pmg_po_number from app_sam.sdi_sdipmghde where tran_type = 'A' and   pmg_stat_code = 4 and   download_date_1 is null and   pmg_ext_po_num is not null
+2022-10-05 13:50:00.003  INFO 15508 --- [scheduling-1] com.jadm.scheduler.ScheduledTasks        : 13:50:00 : Generacion periodica para el envio de tiendas  - {}
+2022-10-05 13:50:00.012 DEBUG 15508 --- [scheduling-1] org.hibernate.SQL                        : select distinct pmg_po_number from app_sam.sdi_sdipmghde where tran_type = 'A' and   pmg_stat_code = 4 and   download_date_1 is null and   pmg_ext_po_num is not null
+2022-10-05 13:51:00.009  INFO 15508 --- [scheduling-1] com.jadm.scheduler.ScheduledTasks        : 13:51:00 : Generacion periodica para el envio de tiendas  - {}
+2022-10-05 13:51:00.020 DEBUG 15508 --- [scheduling-1] org.hibernate.SQL                        : select distinct pmg_po_number from app_sam.sdi_sdipmghde where tran_type = 'A' and   pmg_stat_code = 4 and   download_date_1 is null and   pmg_ext_po_num is not null
+2022-10-05 13:52:00.009  INFO 15508 --- [scheduling-1] com.jadm.scheduler.ScheduledTasks        : 13:52:00 : Generacion periodica para el envio de tiendas  - {}
+2022-10-05 13:52:00.019 DEBUG 15508 --- [scheduling-1] org.hibernate.SQL                        : select distinct pmg_po_number from app_sam.sdi_sdipmghde where tran_type = 'A' and   pmg_stat_code = 4 and   download_date_1 is null and   pmg_ext_po_num is not null
+2022-10-05 13:53:00.003  INFO 15508 --- [scheduling-1] com.jadm.scheduler.ScheduledTasks        : 13:53:00 : Generacion periodica para el envio de tiendas  - {}
+2022-10-05 13:53:00.014 DEBUG 15508 --- [scheduling-1] org.hibernate.SQL                        : select distinct pmg_po_number from app_sam.sdi_sdipmghde where tran_type = 'A' and   pmg_stat_code = 4 and   download_date_1 is null and   pmg_ext_po_num is not null
+2022-10-05 13:54:00.014  INFO 15508 --- [scheduling-1] com.jadm.scheduler.ScheduledTasks        : 13:54:00 : Generacion periodica para el envio de tiendas  - {}
+2022-10-05 13:54:00.025 DEBUG 15508 --- [scheduling-1] org.hibernate.SQL                        : select distinct pmg_po_number from app_sam.sdi_sdipmghde where tran_type = 'A' and   pmg_stat_code = 4 and   download_date_1 is null and   pmg_ext_po_num is not null
+2022-10-05 13:55:00.004  INFO 15508 --- [scheduling-1] com.jadm.scheduler.ScheduledTasks        : 13:55:00 : Generacion periodica para el envio de tiendas  - {}
+2022-10-05 13:55:00.021 DEBUG 15508 --- [scheduling-1] org.hibernate.SQL                        : select distinct pmg_po_number from app_sam.sdi_sdipmghde where tran_type = 'A' and   pmg_stat_code = 4 and   download_date_1 is null and   pmg_ext_po_num is not null
+2022-10-05 13:56:00.002  INFO 15508 --- [scheduling-1] com.jadm.scheduler.ScheduledTasks        : 13:56:00 : Generacion periodica para el envio de tiendas  - {}
+2022-10-05 13:56:00.013 DEBUG 15508 --- [scheduling-1] org.hibernate.SQL                        : select distinct pmg_po_number from app_sam.sdi_sdipmghde where tran_type = 'A' and   pmg_stat_code = 4 and   download_date_1 is null and   pmg_ext_po_num is not null
+2022-10-05 13:57:00.017  INFO 15508 --- [scheduling-1] com.jadm.scheduler.ScheduledTasks        : 13:57:00 : Generacion periodica para el envio de tiendas  - {}
+2022-10-05 13:57:00.028 DEBUG 15508 --- [scheduling-1] org.hibernate.SQL                        : select distinct pmg_po_number from app_sam.sdi_sdipmghde where tran_type = 'A' and   pmg_stat_code = 4 and   download_date_1 is null and   pmg_ext_po_num is not null
+2022-10-05 13:58:00.002  INFO 15508 --- [scheduling-1] com.jadm.scheduler.ScheduledTasks        : 13:58:00 : Generacion periodica para el envio de tiendas  - {}
+2022-10-05 13:58:00.015 DEBUG 15508 --- [scheduling-1] org.hibernate.SQL                        : select distinct pmg_po_number from app_sam.sdi_sdipmghde where tran_type = 'A' and   pmg_stat_code = 4 and   download_date_1 is null and   pmg_ext_po_num is not null
+2022-10-05 13:59:00.011  INFO 15508 --- [scheduling-1] com.jadm.scheduler.ScheduledTasks        : 13:59:00 : Generacion periodica para el envio de tiendas  - {}
+2022-10-05 13:59:00.028 DEBUG 15508 --- [scheduling-1] org.hibernate.SQL                        : select distinct pmg_po_number from app_sam.sdi_sdipmghde where tran_type = 'A' and   pmg_stat_code = 4 and   download_date_1 is null and   pmg_ext_po_num is not null
+2022-10-05 14:00:00.007  INFO 15508 --- [scheduling-1] com.jadm.scheduler.ScheduledTasks        : 14:00:00 : Generacion periodica para el envio de tiendas  - {}
+2022-10-05 14:00:00.017 DEBUG 15508 --- [scheduling-1] org.hibernate.SQL                        : select distinct pmg_po_number from app_sam.sdi_sdipmghde where tran_type = 'A' and   pmg_stat_code = 4 and   download_date_1 is null and   pmg_ext_po_num is not null
+2022-10-05 14:00:00.033 TRACE 15508 --- [scheduling-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([PMG_PO_NUMBER] : [NUMERIC]) - [509311]
+2022-10-05 14:00:00.159 DEBUG 15508 --- [scheduling-1] org.hibernate.SQL                        : select bbookenvio0_.idd as idd1_0_, bbookenvio0_.error as error2_0_, bbookenvio0_.pmg_ext_po_num as pmg_ext_po_num3_0_, bbookenvio0_.pmg_po_number as pmg_po_number4_0_, bbookenvio0_.prc_price1 as prc_price5_0_, bbookenvio0_.prc_price2 as prc_price6_0_, bbookenvio0_.prd_desc as prd_desc7_0_, bbookenvio0_.prd_lvl_number as prd_lvl_number8_0_, bbookenvio0_.prd_lvl_parent_num as prd_lvl_parent_num9_0_, bbookenvio0_.prd_name_full as prd_name_full10_0_, bbookenvio0_.prd_pdd_code_1 as prd_pdd_code_11_0_, bbookenvio0_.prd_pdd_code_2 as prd_pdd_code_12_0_, bbookenvio0_.prd_pdd_code_3 as prd_pdd_code_13_0_, bbookenvio0_.prd_upc as prd_upc14_0_, bbookenvio0_.proforma_invoice as proforma_invoice15_0_, bbookenvio0_.status as status16_0_, bbookenvio0_.value as value17_0_ from bbook_envio_oc bbookenvio0_ where bbookenvio0_.pmg_po_number=?
+2022-10-05 14:00:00.161 TRACE 15508 --- [scheduling-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [509311]
+2022-10-05 14:00:00.567 TRACE 15508 --- [scheduling-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([idd1_0_] : [VARCHAR]) - [AAApzKAANAACAiQAAB]
+2022-10-05 14:00:00.574 TRACE 15508 --- [scheduling-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([error2_0_] : [VARCHAR]) - [OK]
+2022-10-05 14:00:00.575 TRACE 15508 --- [scheduling-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([pmg_ext_po_num3_0_] : [BIGINT]) - [1354]
+2022-10-05 14:00:00.575 TRACE 15508 --- [scheduling-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([pmg_po_number4_0_] : [BIGINT]) - [509311]
+2022-10-05 14:00:00.575 TRACE 15508 --- [scheduling-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([prc_price5_0_] : [BIGINT]) - [19990]
+2022-10-05 14:00:00.575 TRACE 15508 --- [scheduling-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([prc_price6_0_] : [BIGINT]) - [33990]
+2022-10-05 14:00:00.575 TRACE 15508 --- [scheduling-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([prd_desc7_0_] : [VARCHAR]) - [JMBLUCRI21-SNNY]
+2022-10-05 14:00:00.576 TRACE 15508 --- [scheduling-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([prd_lvl_number8_0_] : [VARCHAR]) - [3390341100000  ]
+2022-10-05 14:00:00.576 TRACE 15508 --- [scheduling-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([prd_lvl_parent_num9_0_] : [VARCHAR]) - [3903401        ]
+2022-10-05 14:00:00.576 TRACE 15508 --- [scheduling-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([prd_name_full10_0_] : [VARCHAR]) - [Blusa Jota AZUL 41]
+2022-10-05 14:00:00.576 TRACE 15508 --- [scheduling-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([prd_pdd_code_11_0_] : [VARCHAR]) - [AZUL        ]
+2022-10-05 14:00:00.576 TRACE 15508 --- [scheduling-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([prd_pdd_code_12_0_] : [VARCHAR]) - [41          ]
+2022-10-05 14:00:00.576 TRACE 15508 --- [scheduling-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([prd_pdd_code_13_0_] : [VARCHAR]) - [null]
+2022-10-05 14:00:00.576 TRACE 15508 --- [scheduling-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([prd_upc14_0_] : [BIGINT]) - [2000039034036]
+2022-10-05 14:00:00.576 TRACE 15508 --- [scheduling-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([proforma_invoice15_0_] : [VARCHAR]) - [PI111]
+2022-10-05 14:00:00.576 TRACE 15508 --- [scheduling-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([status16_0_] : [BIGINT]) - [0]
+2022-10-05 14:00:00.576 TRACE 15508 --- [scheduling-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([value17_0_] : [VARCHAR]) - [null]
+2022-10-05 14:00:00.578 TRACE 15508 --- [scheduling-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([idd1_0_] : [VARCHAR]) - [AAApzKAANAACAiQAAB]
+2022-10-05 14:00:00.579 TRACE 15508 --- [scheduling-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([idd1_0_] : [VARCHAR]) - [AAApzKAANAACAiQAAB]
+2022-10-05 14:00:00.579 TRACE 15508 --- [scheduling-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([idd1_0_] : [VARCHAR]) - [AAApzKAANAACAiQAAB]
+2022-10-05 14:00:00.579 TRACE 15508 --- [scheduling-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([idd1_0_] : [VARCHAR]) - [AAApzKAANAACAiQAAB]
+2022-10-05 14:00:00.579 TRACE 15508 --- [scheduling-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([idd1_0_] : [VARCHAR]) - [AAApzKAANAACAiQAAB]
+2022-10-05 14:00:00.579 TRACE 15508 --- [scheduling-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([idd1_0_] : [VARCHAR]) - [AAApzKAANAACAiQAAB]
+2022-10-05 14:00:00.579 TRACE 15508 --- [scheduling-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([idd1_0_] : [VARCHAR]) - [AAApzKAANAACAiQAAB]
+2022-10-05 14:00:00.579 TRACE 15508 --- [scheduling-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([idd1_0_] : [VARCHAR]) - [AAApzKAANAACAiQAAB]
+2022-10-05 14:00:00.579 TRACE 15508 --- [scheduling-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([idd1_0_] : [VARCHAR]) - [AAApzKAANAACAiQAAB]
+2022-10-05 14:00:00.590 TRACE 15508 --- [scheduling-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([idd1_0_] : [VARCHAR]) - [AAApzKAANAACAiQAAB]
+2022-10-05 14:00:00.590 TRACE 15508 --- [scheduling-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([idd1_0_] : [VARCHAR]) - [AAApzKAANAACAiQAAB]
